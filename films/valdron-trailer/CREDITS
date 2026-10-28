@@ -1,0 +1,17 @@
+# CREDITS — VALDRON (Official Vertical Teaser)
+
+## User-Provided Brand & Reference Materials
+- **Lumrook Game Studio Intro Video** (`assets/lumrook-intro.mp4`, 9.00 s) & **Lumrook Brand Logos** (`assets/lumrook-horizontal.png`, `assets/lumrook-logo-2.png`, `assets/lumrook-logo-3.png`, `assets/lumrook-logo-4.png`):
+  - Source: Provided directly by the project owner (Lumrook Game Studio, retrieved from repository `main` branch `result-1e13d3df-5766-44fd-9875-d36374fb9b4d.mp4` and session uploads).
+  - Usage: Official 9.00 s studio intro prepended to the 120.00 s teaser. Responsibility for rights rests with the project owner.
+- **Visual Mood Reference Images** (`assets/57e14d0f0318dc2f51f251b914130e60.jpg`, `assets/81b9cf0865931257fb9da37c77b88f11.jpg`, `assets/eea51f4b017c11f58bb68c7a5cd68900.jpg`):
+  - Source: Provided by the project owner for colour/compositional direction only.
+  - Usage: Inspected solely as visual mood references; none of these images are embedded or composited into the rendered film.
+
+## Original Code, Visuals, Typography & Audio
+- **Pixel Engine, Character & Creature Rigs, Environments & Animation** (`src/px.js`, `src/chars.js`, `src/scenes.js`, `src/main.js`):
+  - 100% original procedural 270×480 indexed pixel-art graphics written in JavaScript for this project. No external sprites, tilesets, or stock footage used.
+- **Bitmap Pixel Typography** (`src/font.js`):
+  - 100% original gothic-serif bitmap pixel glyph matrices created in code for this project. No external font files embedded.
+- **Original Musical Score & Procedural Sound Effects** (`mix.py`, with helper DSP filters from repository `core/audio/sfx.py`):
+  - 100% original synthesized & physically-modeled 48 kHz stereo score and foley generated deterministically in Python (`numpy` / `scipy`). No third-party audio recordings, sample packs, or copyrighted melodies used.
