@@ -1,0 +1,56 @@
+{
+  "dur": 120.0,
+  "intro_offset": 9.0,
+  "fps": 24,
+  "width": 1080,
+  "height": 1920,
+  "native_width": 270,
+  "native_height": 480,
+  "scale": 4,
+  "silences": [
+    [22.5, 25.0],
+    [100.0, 102.4]
+  ],
+  "sections": [
+    { "id": "act1_feast",   "t0": 0.0,   "t1": 20.0,  "bpm": 72, "mode": "D_dorian" },
+    { "id": "act2_curse",   "t0": 20.0,  "t1": 38.0,  "bpm": 60, "mode": "A_phrygian" },
+    { "id": "act3_streets", "t0": 38.0,  "t1": 68.0,  "bpm": 64, "mode": "D_locrian" },
+    { "id": "act4_wilds",   "t0": 68.0,  "t1": 100.0, "bpm": 96, "mode": "D_minor" },
+    { "id": "act5_citadel", "t0": 100.0, "t1": 120.0, "bpm": 56, "mode": "D_open5" }
+  ],
+  "shots": [
+    { "id": "s01_battlements", "t0": 0.0,   "t1": 5.8 },
+    { "id": "s02_feast",       "t0": 5.8,   "t1": 11.7 },
+    { "id": "s03_departure",   "t0": 11.7,  "t1": 16.7 },
+    { "id": "s04_sleep",       "t0": 16.7,  "t1": 20.0 },
+    { "id": "s05_curse_wave",  "t0": 20.0,  "t1": 26.7 },
+    { "id": "s06_awakening",   "t0": 26.7,  "t1": 32.5 },
+    { "id": "s07_gate",        "t0": 32.5,  "t1": 38.0 },
+    { "id": "s08_dead_street", "t0": 38.0,  "t1": 45.0 },
+    { "id": "s09_cottage",     "t0": 45.0,  "t1": 51.5 },
+    { "id": "s10_alley_turn",  "t0": 51.5,  "t1": 60.0 },
+    { "id": "s11_watchers",    "t0": 60.0,  "t1": 68.0 },
+    { "id": "s12_woods",       "t0": 68.0,  "t1": 75.5 },
+    { "id": "s13_mill_fight",  "t0": 75.5,  "t1": 82.0 },
+    { "id": "s14_smithy",      "t0": 82.0,  "t1": 88.5 },
+    { "id": "s15a_mire_boss",  "t0": 88.5,  "t1": 90.7 },
+    { "id": "s15b_belfry",     "t0": 90.7,  "t1": 92.9 },
+    { "id": "s15c_shrine",     "t0": 92.9,  "t1": 95.0 },
+    { "id": "s16_valley_star", "t0": 95.0,  "t1": 100.0 },
+    { "id": "s17_cyan_moon",   "t0": 100.0, "t1": 108.5 },
+    { "id": "s18_throne_nave", "t0": 108.5, "t1": 113.5 },
+    { "id": "s19_title_card",  "t0": 113.5, "t1": 120.0 }
+  ],
+  "captions": [
+    { "id": "cap1", "t0": 1.60,   "t1": 5.40,   "text": "LORIS FELL BEFORE NIGHTFALL.",           "pos": "bottom" },
+    { "id": "cap2", "t0": 12.20,  "t1": 16.20,  "text": "WE CALLED IT VICTORY.",                  "pos": "bottom" },
+    { "id": "cap3", "t0": 33.00,  "t1": 37.50,  "text": "WHEN I WOKE, VALDRON WAS SILENT.",       "pos": "bottom" },
+    { "id": "cap4", "t0": 62.20,  "t1": 67.40,  "text": "THE LIVING DID NOT DIE. THEY CHANGED.",  "pos": "bottom" },
+    { "id": "cap5", "t0": 83.00,  "t1": 88.00,  "text": "BEYOND THE WALLS, ONLY ASH AND HUNGER.", "pos": "bottom" },
+    { "id": "cap6", "t0": 102.80, "t1": 108.00, "text": "SOMETHING WAITS IN THE KING'S HALL.",    "pos": "bottom" }
+  ],
+  "titles": [
+    { "id": "title_main",   "t0": 113.80, "t1": 119.50, "text": "VALDRON" },
+    { "id": "title_studio", "t0": 114.20, "t1": 119.50, "text": "LUMROOK GAME STUDIO" }
+  ]
+}

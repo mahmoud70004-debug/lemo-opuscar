@@ -83,8 +83,8 @@ styles/*/demo/stills/*
 # Illustrative plates a demo's build needs (AI-generated, credited in CREDITS) are committed, not re-fetched
 !styles/news-package/demo/assets/plates/*.jpg
 
-# 用户自己的片子（agent 输出）
-/films/
+# 用户自己的片子（agent 输出）— تتبع الأفلام المُنتجة مع استثناء مجلدات الرندرة المؤقتة
+/films/*/work/
 
 
 # Production logs are internal: they stay local
@@ -113,6 +113,7 @@ styles/*/demo/**/*.pdf
 
 # ---- Process notes and drafts stay local, anywhere in the repo ----
 **/TREATMENT.md
+!films/**/TREATMENT.md
 **/PRODUCTION_LOG*
 **/HANDOFF*.md
 **/NOTES.md
