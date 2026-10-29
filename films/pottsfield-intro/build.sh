@@ -38,8 +38,11 @@ echo "==> [7/8] Rendering 1080x1920 36s Continuous One-Shot Viral Launch Film @ 
 "$PY" "$HERE/oneshot_engine.py" --out-raw "$HERE/out/video_oneshot_9x16.mp4" --poster "$HERE/poster-viral-oneshot.jpg" --workers 2
 LEMO_COLOR=bt709 sh "$LIB/core/render/mux.sh" "$HERE/out/video_oneshot_9x16.mp4" "$HERE/out/mix_oneshot.wav" "$HERE/pottsfield-viral-oneshot.mp4" 30 1
 
-echo "==> [8/8] Rendering 4K (3840x2160) & 2.5K (2560x1440) Multi-Device YouTube Channel Banners..."
+echo "==> [8/9] Rendering 4K (3840x2160) & 2.5K (2560x1440) Multi-Device YouTube Channel Banners..."
 "$PY" "$HERE/build_youtube_banner.py"
+
+echo "==> [9/9] Rendering 4K Radiant Studio Manifesto Cards (9:16 Highlight, 4:5 Pinned, 1:1 Community)..."
+"$PY" "$HERE/build_manifesto_cards.py"
 
 echo "✓ Build complete:"
 echo "  16:9 Game Boot (10s)   : $HERE/pottsfield-intro.mp4"
@@ -48,4 +51,7 @@ echo "  9:16 Quick Short (10s) : $HERE/pottsfield-launch-short.mp4"
 echo "  9:16 Viral OneShot(36s): $HERE/pottsfield-viral-oneshot.mp4"
 echo "  YT Banner 4K  (PNG)    : $HERE/pottsfield-youtube-banner-4k.png"
 echo "  YT Banner 2.5K(PNG)    : $HERE/pottsfield-youtube-banner-2560x1440.png"
+echo "  Manifesto 9:16(PNG)    : $HERE/pottsfield-manifesto-highlight-9x16.png"
+echo "  Manifesto 4:5 (PNG)    : $HERE/pottsfield-manifesto-pinned-4x5.png"
+echo "  Manifesto 1:1 (PNG)    : $HERE/pottsfield-manifesto-community-1x1.png"
 echo "  Posters                : $HERE/poster.jpg , $HERE/poster-vertical.jpg , $HERE/poster-launch-short.jpg , $HERE/poster-viral-oneshot.jpg"
