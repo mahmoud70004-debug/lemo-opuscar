@@ -11,7 +11,7 @@
 - **Studio Identity:** **Pottsfield Studio** (backed & published by **Lumrook**)
 - **Visual Signature:** Vivid Harvest Orange (`#F4730A`), Crimson Autumn Ink (`#A82424`), Velvet Black (`#000000`), and the **Wicked Glowing Pumpkin**.
 - **Creative Philosophy:** Human imagination, narrative depth, and artistic direction — supercharged by modern vibe coding to build ambitious 2D & 3D worlds that used to require a 50-person studio.
-- **Our Promise to Players:** Deep, atmospheric, story-driven 2D & 3D Android adventures with kinetic gameplay joy — standing against mindless idle clickers, fake ads, and Google Play "brainrot".
+- **Our Promise to Players:** Deep, atmospheric, story-driven 2D & 3D adventures with kinetic gameplay joy — launching **on Android first, with Windows PC editions following** — standing against mindless idle clickers, fake ads, and mobile "brainrot".
 
 ---
 
@@ -31,7 +31,7 @@ All options below avoid *"handcrafted"* while highlighting **imagination, story,
 ```text
 Pottsfield Studio 🎃
 Driven by Story. Lit by Soul.
-Atmospheric 2D & 3D narrative games for Android.
+Atmospheric 2D & 3D story adventures — Android first, Windows PC next.
 No fake ads. No brainrot. Just unforgettable worlds.
 A @lumrook studio ✦
 ```
@@ -49,7 +49,7 @@ Open **`studio.youtube.com`** from a desktop browser (or Chrome Desktop Mode) an
    - **Country of residence:** Select `Egypt` (for accurate future AdSense/tax verification — **this does NOT restrict your viewers to Egypt!** YouTube separates creator billing country from audience language completely) *or* leave unset until monetization.
    - **Keywords (Paste these exact tags so YouTube's AI classifies your channel on Day 1):**
      ```text
-     indie game studio, narrative android games, story driven mobile games, atmospheric games, adventure games android, 2d 3d indie games, mobile gaming, pottsfield studio, lumrook, anti brainrot games, single player android games
+     indie game studio, narrative android games, story driven mobile games, atmospheric pc games, indie adventure games, 2d 3d indie games, mobile gaming, pc gaming, pottsfield studio, lumrook, anti brainrot games, single player story games
      ```
 2. **Settings (`⚙️`) → Upload Defaults → Basic Info & Advanced Settings:**
    - **Visibility:** `Unlisted` or `Public`
@@ -77,37 +77,39 @@ YouTube's Shorts algorithm promotes a video from the initial **500–1,500 seed 
 
 ### Step 4: Ready-to-Publish Upload Pack for Your First 3 YouTube Shorts
 
-#### Short #1 — Official Studio Reveal (`pottsfield-intro-vertical.mp4`)
-- **File:** `pottsfield-intro-vertical.mp4` (`1080×1920`, 30 fps)
-- **Optional On-Screen Text (`0.0s – 2.6s`, Top Center):**
-  `Mobile gaming lost its soul. We’re bringing it back.`
+#### Short #1 — Official Viral Launch Short (`pottsfield-launch-short.mp4`)
+- **File:** `pottsfield-launch-short.mp4` (`1080×1920`, 30 fps, `-14.3 LUFS`) — *custom-rendered with HDR woodcut/ember retention hooks, safe-zone framing, Frame-1 audio hook, and seamless black loop!* (Keep `pottsfield-intro-vertical.mp4` & `pottsfield-intro.mp4` as your clean in-game boot intros.)
+- **Built-in 3-Beat Retention Hooks (Already Rendered Inside the Video):**
+  1. `0.01s – 2.98s`: `LET’S BE HONEST / MOBILE GAMING LOST ITS SOUL. / Endless brainrot. Fake ads. Zero story.`
+  2. `3.00s – 5.98s`: `WE’RE BRINGING IT BACK. / DEEP 2D & 3D STORY ADVENTURES / ANDROID FIRST · WINDOWS PC NEXT`
+  3. `6.22s – 9.97s`: `A LUMROOK STUDIO / “Driven by Story. Lit by Soul.”` + `FOLLOW FROM DAY 1 / ANDROID · WINDOWS PC`
 - **Title (54 chars — keep Shorts titles punchy & under 60 chars):**
-  `Why we started an Android story-game studio in 2026 🎃`
+  `Why we started a story-game studio in 2026 🎃`
 - **Description (Copy-Paste):**
   ```text
-  Google Play is drowning in fake ads, mindless idle clickers, and disposable brainrot.
-  Backed by Lumrook, we launched Pottsfield Studio to build something different: atmospheric 2D & 3D story-driven adventure games made natively for Android.
+  Mobile stores are drowning in fake ads, mindless idle clickers, and disposable brainrot.
+  Backed by Lumrook, we launched Pottsfield Studio to build something different: atmospheric 2D & 3D story-driven adventure games — launching on Android first, with Windows PC editions following.
 
   Driven by Story. Lit by Soul. 🎃
 
   Subscribe to follow Game #1 from Day 1.
 
-  #indiegames #mobilegaming #androidgames #gamedev #shorts
+  #indiegames #mobilegaming #pcgaming #androidgames #gamedev #shorts
   ```
-- **Thumbnail Frame:** Select the `0:08` frame showing the complete glowing `Pottsfield STUDIO` crest!
+- **Thumbnail Frame:** Select the `0:08` frame (`poster-launch-short.jpg`) showing the complete glowing `Pottsfield STUDIO` crest + `Driven by Story. Lit by Soul.` + `FOLLOW FROM DAY 1`!
 - **Pinned Comment (Post immediately & Pin 📌):**
-  `Be honest: what is the LAST mobile game that actually made you feel something? 👇 (Ours were Limbo & Monument Valley — that’s the magic we want to bring back to Android.)`
+  `Be honest: what is the LAST mobile or indie game that actually made you feel something? 👇 (Ours were Limbo, Inside & Monument Valley — that’s the magic we’re bringing to Android first, and Windows PC next.)`
 
 #### Short #2 (Publish 48 Hours Later) — The Anti-Brainrot Manifesto
 - **Length:** 12–15 seconds
 - **Visual:** Split or fast contrast: 3 seconds mocking generic "99% can't solve / fake math gate" mobile slop → hard cut with the Pottsfield spark sound → atmospheric mood/concept/prototype of the real narrative worlds Pottsfield builds.
-- **Title:** `Google Play ads in 2026 vs. what players actually want`
-- **Pinned Comment:** `Would you rather play a 3-hour unforgettable story on your phone, or an endless idle game? Vote below 👇`
+- **Title:** `Mobile game ads in 2026 vs. what players actually want`
+- **Pinned Comment:** `Would you rather play a 3-hour unforgettable story, or an endless idle clicker? Vote below 👇`
 
 #### Short #3 (Publish 48–72 Hours Later) — Creative Vision × Vibe Coding / First Prototype Peek
 - **Length:** 10–16 seconds
-- **Visual:** First movement / lighting / atmosphere test from your first Android project, ending with the last 3.5 seconds (`6.5s – 10.0s`) of `pottsfield-intro-vertical.mp4`.
-- **Title:** `First look at our dark adventure game for Android 🕯️`
+- **Visual:** First movement / lighting / atmosphere test from Game #1 (Android first, Windows PC later), ending with the last 3.5 seconds (`6.5s – 10.0s`) of `pottsfield-launch-short.mp4`.
+- **Title:** `First look at our dark story adventure (Android + PC) 🕯️`
 - **Pinned Comment:** `Early lighting test! Does this atmosphere feel spooky enough, or should we push the darkness further?`
 
 ---

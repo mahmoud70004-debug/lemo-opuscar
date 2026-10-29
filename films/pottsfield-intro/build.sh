@@ -29,7 +29,12 @@ echo "==> [5/5] Rendering 1080x1920 (9:16 Vertical — Portrait Mobile Games) @ 
 "$PY" "$HERE/render_video.py" --size 1080x1920 --out "$HERE/out/video_9x16.mp4" --poster "$HERE/poster-vertical.jpg" --workers 2
 LEMO_COLOR=bt709 sh "$LIB/core/render/mux.sh" "$HERE/out/video_9x16.mp4" "$HERE/out/mix.wav" "$HERE/pottsfield-intro-vertical.mp4" 30 1
 
+echo "==> [6/6] Rendering 1080x1920 Viral Social Launch Short (YouTube Shorts / TikTok / Reels) @ 30 fps..."
+"$PY" "$HERE/social_short.py" --out-raw "$HERE/out/video_social_9x16.mp4" --poster "$HERE/poster-launch-short.jpg" --workers 2
+LEMO_COLOR=bt709 sh "$LIB/core/render/mux.sh" "$HERE/out/video_social_9x16.mp4" "$HERE/out/mix_social.wav" "$HERE/pottsfield-launch-short.mp4" 30 1
+
 echo "✓ Build complete:"
-echo "  16:9 Landscape : $HERE/pottsfield-intro.mp4"
-echo "  9:16 Vertical  : $HERE/pottsfield-intro-vertical.mp4"
-echo "  Posters        : $HERE/poster.jpg , $HERE/poster-vertical.jpg"
+echo "  16:9 Game Boot : $HERE/pottsfield-intro.mp4"
+echo "  9:16 Game Boot : $HERE/pottsfield-intro-vertical.mp4"
+echo "  9:16 Viral Short: $HERE/pottsfield-launch-short.mp4"
+echo "  Posters        : $HERE/poster.jpg , $HERE/poster-vertical.jpg , $HERE/poster-launch-short.jpg"
