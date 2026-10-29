@@ -10,7 +10,8 @@
 - Additional bowed cello/contrabass synthesis, stereo impulse response reverb, woodcut gouge foley, flint spark, and hearth ignition synthesis (`mix.py`): original procedural synthesis in Python (`numpy` / `scipy`), no external audio samples used.
 
 ## Rendering, Typography & Open-Source Libraries
-- Frame rendering, 2D woodcut relief extraction, 3D heightfield/normal lighting, volumetric god-rays, and 3D bokeh particle compositor (`prepare_assets.py`, `engine.py`, `render_video.py`, `social_short.py`): original code built with Python, NumPy (BSD-3-Clause), SciPy (BSD-3-Clause), OpenCV (Apache-2.0), Pillow (HPND), and muxed via FFmpeg (`core/render/mux.sh`, MIT).
+- Frame rendering, 2D woodcut relief extraction, 3D heightfield/normal lighting, volumetric god-rays, continuous 2.5D/3D One-Shot world camera, parametric SDF device morphing, and 3D bokeh particle compositor (`prepare_assets.py`, `engine.py`, `render_video.py`, `social_short.py`, `oneshot_graphics.py`, `oneshot_engine.py`, `oneshot_mix.py`): original code built with Python, NumPy (BSD-3-Clause), SciPy (BSD-3-Clause), OpenCV (Apache-2.0), Pillow (HPND), and muxed via FFmpeg (`core/render/mux.sh`, MIT).
+- Motion Direction, Retention & Verification Workflows (`motion-skills/`): from **iart-ai/motion-skills** (`https://github.com/iart-ai/motion-skills`, MIT Licence).
 - Fonts (used in `pottsfield-launch-short.mp4`, self-hosted in `fonts/` under SIL Open Font License 1.1):
   - **Cinzel** (`fonts/Cinzel[wght].ttf`, `fonts/cinzel-OFL.txt`) — Copyright The Cinzel Project Authors, Google Fonts, OFL-1.1.
   - **IM Fell English** (`fonts/IMFeENit28P.ttf`, `fonts/IMFeENrm28P.ttf`, `fonts/imfellenglish-OFL.txt`) — Copyright Igino Marini, Google Fonts, OFL-1.1.

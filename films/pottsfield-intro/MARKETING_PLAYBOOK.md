@@ -77,14 +77,10 @@ YouTube's Shorts algorithm promotes a video from the initial **500–1,500 seed 
 
 ### Step 4: Ready-to-Publish Upload Pack for Your First 3 YouTube Shorts
 
-#### Short #1 — Official Viral Launch Short (`pottsfield-launch-short.mp4`)
-- **File:** `pottsfield-launch-short.mp4` (`1080×1920`, 30 fps, `-14.3 LUFS`) — *custom-rendered with HDR woodcut/ember retention hooks, safe-zone framing, Frame-1 audio hook, and seamless black loop!* (Keep `pottsfield-intro-vertical.mp4` & `pottsfield-intro.mp4` as your clean in-game boot intros.)
-- **Built-in 3-Beat Retention Hooks (Already Rendered Inside the Video):**
-  1. `0.01s – 2.98s`: `LET’S BE HONEST / MOBILE GAMING LOST ITS SOUL. / Endless brainrot. Fake ads. Zero story.`
-  2. `3.00s – 5.98s`: `WE’RE BRINGING IT BACK. / DEEP 2D & 3D STORY ADVENTURES / ANDROID FIRST · WINDOWS PC NEXT`
-  3. `6.22s – 9.97s`: `A LUMROOK STUDIO / “Driven by Story. Lit by Soul.”` + `FOLLOW FROM DAY 1 / ANDROID · WINDOWS PC`
-- **Title (54 chars — keep Shorts titles punchy & under 60 chars):**
-  `Why we started a story-game studio in 2026 🎃`
+#### Short #1 — Flagship 36-Second Continuous One-Shot Viral Film (`pottsfield-viral-oneshot.mp4`)
+- **Primary File (Recommended Flagship):** `pottsfield-viral-oneshot.mp4` (`1080×1920`, `36.0s`, `30 fps`, `-14.1 LUFS`) — *engineered as one unbroken 36-second camera shot (`100 BPM`) with kinetic motion graphics, zero simultaneous reading/logo clutter, 8 seconds of undivided 2D→3D pumpkin & crest reveal, 5-second calm CTA hold, and an invisible infinite loop back to Frame 0!* (You also have `pottsfield-launch-short.mp4` as a 10s teaser variant, plus `pottsfield-intro.mp4` & `pottsfield-intro-vertical.mp4` as clean in-game boot intros.)
+- **Title (47 chars — punchy & high-curiosity):**
+  `Remember when mobile games actually had a soul?`
 - **Description (Copy-Paste):**
   ```text
   Mobile stores are drowning in fake ads, mindless idle clickers, and disposable brainrot.
@@ -96,7 +92,7 @@ YouTube's Shorts algorithm promotes a video from the initial **500–1,500 seed 
 
   #indiegames #mobilegaming #pcgaming #androidgames #gamedev #shorts
   ```
-- **Thumbnail Frame:** Select the `0:08` frame (`poster-launch-short.jpg`) showing the complete glowing `Pottsfield STUDIO` crest + `Driven by Story. Lit by Soul.` + `FOLLOW FROM DAY 1`!
+- **Thumbnail Frame:** Select the `0:32` frame (`poster-viral-oneshot.jpg`) showing the complete glowing `Pottsfield STUDIO` crest + `Driven by Story. Lit by Soul.` + `FOLLOW FROM DAY 1`!
 - **Pinned Comment (Post immediately & Pin 📌):**
   `Be honest: what is the LAST mobile or indie game that actually made you feel something? 👇 (Ours were Limbo, Inside & Monument Valley — that’s the magic we’re bringing to Android first, and Windows PC next.)`
 

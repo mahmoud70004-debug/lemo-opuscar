@@ -1,0 +1,9 @@
+{
+  "name": "talking-head-skills",
+  "owner": { "name": "iart.ai", "url": "https://iart.ai" },
+  "plugins": [{
+    "name": "talking-head-skills",
+    "source": "./",
+    "description": "Turn your photos and voice or a self-recorded video into AI talking-head footage with a new script and motion graphics."
+  }]
+}

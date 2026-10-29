@@ -1,0 +1,9 @@
+{
+  "name": "talking-head-skills",
+  "version": "0.1.1",
+  "description": "Make an AI talking-head film from your photos and voice or a self-recorded video, using fal H3, ElevenLabs and editable motion graphics.",
+  "author": { "name": "iart.ai", "url": "https://iart.ai" },
+  "repository": "https://github.com/iart-ai/talking-head-skills",
+  "license": "MIT",
+  "keywords": ["talking-head", "voice-cloning", "minimax-h3", "elevenlabs", "motion-graphics", "claude-skill"]
+}
