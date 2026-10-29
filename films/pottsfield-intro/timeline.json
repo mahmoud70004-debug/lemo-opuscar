@@ -1,0 +1,193 @@
+{
+  "fps": 30,
+  "duration": 10.0,
+  "total_frames": 300,
+  "bpm": 120.0,
+  "beat_sec": 0.5,
+  "bar_sec": 2.0,
+  "sections": [
+    {
+      "id": "woodcut_2d",
+      "bar": 1,
+      "t0": 0.0,
+      "t1": 2.15,
+      "bpm": 120,
+      "desc": "Act I: 2D woodcut relief carving in darkness"
+    },
+    {
+      "id": "hush_spark",
+      "bar": 2,
+      "t0": 2.15,
+      "t1": 3.0,
+      "bpm": 120,
+      "desc": "Silence #1 breath + 2.75s eye spark anticipation"
+    },
+    {
+      "id": "ignite_3d",
+      "bar": 2,
+      "t0": 3.0,
+      "t1": 4.75,
+      "bpm": 120,
+      "desc": "Act II: 2D->3D volumetric fire ignition & parallax"
+    },
+    {
+      "id": "crane_dock",
+      "bar": 3,
+      "t0": 4.75,
+      "t1": 6.0,
+      "bpm": 120,
+      "desc": "3D crane pull-back + Silence #2 pre-lockup inhale"
+    },
+    {
+      "id": "crest_bloom",
+      "bar": 4,
+      "t0": 6.0,
+      "t1": 7.4,
+      "bpm": 120,
+      "desc": "Act III: Crest vines, pumpkins, ring & Pottsfield STUDIO bloom"
+    },
+    {
+      "id": "official_hold",
+      "bar": 5,
+      "t0": 7.4,
+      "t1": 10.0,
+      "bpm": 120,
+      "desc": "Living official emblem hold & clean boot fade to black"
+    }
+  ],
+  "cues": {
+    "wind_jcut_in": {
+      "beat": 0.0,
+      "t": 0.0,
+      "type": "ambience",
+      "pan": 0.0,
+      "desc": "Cold autumn wind rises in darkness (J-cut)"
+    },
+    "carve_stem_strike": {
+      "beat": 0.5,
+      "t": 0.25,
+      "type": "carve",
+      "pan": 0.04,
+      "desc": "First woodcut gouge strikes twisted stem"
+    },
+    "carve_ribs_sweep": {
+      "beat": 1.25,
+      "t": 0.625,
+      "type": "carve",
+      "pan": -0.1,
+      "desc": "Curved gouges sweep down upper pumpkin ribs"
+    },
+    "cut_frontal_plate": {
+      "beat": 2.0,
+      "t": 1.0,
+      "type": "plate_cut",
+      "pan": 0.0,
+      "desc": "Hard print-registration cut to frontal Close-Up + brow carve"
+    },
+    "carve_grin_slice": {
+      "beat": 3.0,
+      "t": 1.5,
+      "type": "carve",
+      "pan": 0.08,
+      "desc": "9-tooth wicked grin carved symmetrically"
+    },
+    "silence_1_start": {
+      "beat": 4.3,
+      "t": 2.15,
+      "type": "silence",
+      "pan": 0.0,
+      "desc": "Real Silence #1 begins (near-silent tension)"
+    },
+    "eye_spark_ping": {
+      "beat": 5.5,
+      "t": 2.75,
+      "type": "spark",
+      "pan": -0.22,
+      "desc": "Single celesta A5 + flint spark in left eye"
+    },
+    "ignite_3d_boom": {
+      "beat": 6.0,
+      "t": 3.0,
+      "type": "ignite",
+      "pan": 0.0,
+      "desc": "TURN: 2D->3D inner fire explosion & volumetric god-rays"
+    },
+    "ember_swirl_gust": {
+      "beat": 7.0,
+      "t": 3.5,
+      "type": "embers",
+      "pan": 0.18,
+      "desc": "3D bokeh embers & autumn leaves swirl upward"
+    },
+    "motif_phrase_a": {
+      "beat": 8.0,
+      "t": 4.0,
+      "type": "music",
+      "pan": 0.0,
+      "desc": "Haunted autumn music-box & lute motif peaks"
+    },
+    "crane_pullback": {
+      "beat": 9.5,
+      "t": 4.75,
+      "type": "camera",
+      "pan": 0.0,
+      "desc": "Camera cranes up & pulls back toward full crest"
+    },
+    "silence_2_inhale": {
+      "beat": 11.3,
+      "t": 5.65,
+      "type": "inhale",
+      "pan": 0.0,
+      "desc": "Near-silence #2 reverse-ember inhale before lockup"
+    },
+    "crest_throne_lock": {
+      "beat": 12.0,
+      "t": 6.0,
+      "type": "lockup",
+      "pan": 0.0,
+      "desc": "Hero pumpkin docks in crest; vines & ring sprout"
+    },
+    "side_pumpkins_pop": {
+      "beat": 12.5,
+      "t": 6.25,
+      "type": "foliage",
+      "pan": 0.0,
+      "desc": "4 companion pumpkins & autumn maple leaves awaken"
+    },
+    "pottsfield_blaze": {
+      "beat": 13.0,
+      "t": 6.5,
+      "type": "title",
+      "pan": -0.15,
+      "desc": "Gothic 'Pottsfield' wordmark blazes across upper arch"
+    },
+    "studio_lock_chime": {
+      "beat": 14.5,
+      "t": 7.25,
+      "type": "title",
+      "pan": 0.0,
+      "desc": "'S T U D I O' crimson sub-title locks in"
+    },
+    "fade_to_boot_black": {
+      "beat": 18.9,
+      "t": 9.45,
+      "type": "fade",
+      "pan": 0.0,
+      "desc": "Clean game-boot fade to pure #000000 black"
+    }
+  },
+  "silences": [
+    {
+      "id": "pre_spark_hush",
+      "t0": 2.2,
+      "t1": 2.72,
+      "max_rms_db": -42.0
+    },
+    {
+      "id": "pre_crest_inhale",
+      "t0": 5.68,
+      "t1": 5.96,
+      "max_rms_db": -26.0
+    }
+  ]
+}

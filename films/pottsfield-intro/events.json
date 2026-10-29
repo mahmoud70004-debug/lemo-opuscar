@@ -1,0 +1,142 @@
+{
+  "duration": 10.0,
+  "fps": 30,
+  "events": [
+    {
+      "id": "wind_jcut_in",
+      "t": 0.0,
+      "beat": 0.0,
+      "type": "ambience",
+      "pan": 0.0,
+      "desc": "Cold autumn wind rises in darkness (J-cut)"
+    },
+    {
+      "id": "carve_stem_strike",
+      "t": 0.25,
+      "beat": 0.5,
+      "type": "carve",
+      "pan": 0.04,
+      "desc": "First woodcut gouge strikes twisted stem"
+    },
+    {
+      "id": "carve_ribs_sweep",
+      "t": 0.625,
+      "beat": 1.25,
+      "type": "carve",
+      "pan": -0.1,
+      "desc": "Curved gouges sweep down upper pumpkin ribs"
+    },
+    {
+      "id": "cut_frontal_plate",
+      "t": 1.0,
+      "beat": 2.0,
+      "type": "plate_cut",
+      "pan": 0.0,
+      "desc": "Hard print-registration cut to frontal Close-Up + brow carve"
+    },
+    {
+      "id": "carve_grin_slice",
+      "t": 1.5,
+      "beat": 3.0,
+      "type": "carve",
+      "pan": 0.08,
+      "desc": "9-tooth wicked grin carved symmetrically"
+    },
+    {
+      "id": "silence_1_start",
+      "t": 2.15,
+      "beat": 4.3,
+      "type": "silence",
+      "pan": 0.0,
+      "desc": "Real Silence #1 begins (near-silent tension)"
+    },
+    {
+      "id": "eye_spark_ping",
+      "t": 2.75,
+      "beat": 5.5,
+      "type": "spark",
+      "pan": -0.22,
+      "desc": "Single celesta A5 + flint spark in left eye"
+    },
+    {
+      "id": "ignite_3d_boom",
+      "t": 3.0,
+      "beat": 6.0,
+      "type": "ignite",
+      "pan": 0.0,
+      "desc": "TURN: 2D->3D inner fire explosion & volumetric god-rays"
+    },
+    {
+      "id": "ember_swirl_gust",
+      "t": 3.5,
+      "beat": 7.0,
+      "type": "embers",
+      "pan": 0.18,
+      "desc": "3D bokeh embers & autumn leaves swirl upward"
+    },
+    {
+      "id": "motif_phrase_a",
+      "t": 4.0,
+      "beat": 8.0,
+      "type": "music",
+      "pan": 0.0,
+      "desc": "Haunted autumn music-box & lute motif peaks"
+    },
+    {
+      "id": "crane_pullback",
+      "t": 4.75,
+      "beat": 9.5,
+      "type": "camera",
+      "pan": 0.0,
+      "desc": "Camera cranes up & pulls back toward full crest"
+    },
+    {
+      "id": "silence_2_inhale",
+      "t": 5.65,
+      "beat": 11.3,
+      "type": "inhale",
+      "pan": 0.0,
+      "desc": "Near-silence #2 reverse-ember inhale before lockup"
+    },
+    {
+      "id": "crest_throne_lock",
+      "t": 6.0,
+      "beat": 12.0,
+      "type": "lockup",
+      "pan": 0.0,
+      "desc": "Hero pumpkin docks in crest; vines & ring sprout"
+    },
+    {
+      "id": "side_pumpkins_pop",
+      "t": 6.25,
+      "beat": 12.5,
+      "type": "foliage",
+      "pan": 0.0,
+      "desc": "4 companion pumpkins & autumn maple leaves awaken"
+    },
+    {
+      "id": "pottsfield_blaze",
+      "t": 6.5,
+      "beat": 13.0,
+      "type": "title",
+      "pan": -0.15,
+      "desc": "Gothic 'Pottsfield' wordmark blazes across upper arch"
+    },
+    {
+      "id": "studio_lock_chime",
+      "t": 7.25,
+      "beat": 14.5,
+      "type": "title",
+      "pan": 0.0,
+      "desc": "'S T U D I O' crimson sub-title locks in"
+    },
+    {
+      "id": "fade_to_boot_black",
+      "t": 9.45,
+      "beat": 18.9,
+      "type": "fade",
+      "pan": 0.0,
+      "desc": "Clean game-boot fade to pure #000000 black"
+    }
+  ]
+}

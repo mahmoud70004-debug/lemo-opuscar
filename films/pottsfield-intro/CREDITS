@@ -1,0 +1,14 @@
+# Credits & Licences — Pottsfield Studio Official Intro (`pottsfield-intro`)
+
+## Brand Artwork (User-Supplied Proprietary Material)
+- `assets/logo_full.png` — Official Pottsfield Studio circular emblem artwork (provided by Pottsfield Studio; all rights reserved to Pottsfield Studio).
+- `assets/pumpkin_hero.png` — Official Pottsfield Studio standalone centerpiece Evil Pumpkin artwork (provided by Pottsfield Studio; all rights reserved to Pottsfield Studio).
+
+## Audio, Score & Sound Effects
+- Original musical score (`mix.py`, 120 BPM in D Dorian → D Add9): composed procedurally in code for Pottsfield Studio.
+- Physical string waveguide & modal music-box synthesis (`core/audio/pluck.py`) and procedural foley primitives (`core/audio/sfx.py`): from the Lemo-Opuscar toolkit, MIT Licence.
+- Additional bowed cello/contrabass synthesis, stereo impulse response reverb, woodcut gouge foley, flint spark, and hearth ignition synthesis (`mix.py`): original procedural synthesis in Python (`numpy` / `scipy`), no external audio samples used.
+
+## Rendering & Open-Source Libraries
+- Frame rendering, 2D woodcut relief extraction, 3D heightfield/normal lighting, volumetric god-rays, and 3D bokeh particle compositor (`prepare_assets.py`, `engine.py`, `render_video.py`): original code built with Python, NumPy (BSD-3-Clause), SciPy (BSD-3-Clause), OpenCV (Apache-2.0), Pillow (HPND), and muxed via FFmpeg (`core/render/mux.sh`, MIT).
+- Fonts: None downloaded; typography is rendered directly from Pottsfield Studio's supplied official emblem artwork.
