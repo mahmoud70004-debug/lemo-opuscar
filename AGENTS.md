@@ -11,6 +11,7 @@ This repository is a library of film styles. Each style has a `styles/<slug>/STY
 | Building: install, pages, voice, music, mix | [`TECHNIQUE.md`](TECHNIQUE.md) |
 | Tool commands and flags | [`core/README.md`](core/README.md) |
 | The user wants to change a style and keep it as their own, or make their own style from a blank page, or names a style in `~/lemo-my-styles/` | [`MY-STYLES.md`](MY-STYLES.md) |
+| Custom motion graphics, kinetic typography, Arabic RTL reels, animated charts, UI/product promos, 2D/3D/SVG/Lottie/Remotion/Manim animation | **Motion Graphics & Animation skills** below · [`plugin/skills/README.md`](plugin/skills/README.md) |
 | Adding a style to the library (owner only) | [`MAINTAINING.md`](MAINTAINING.md) |
 
 **Films outside `styles/` are the user's: no LemoLab credit, no watermark.**
@@ -86,3 +87,14 @@ Report progress in the user's language. If a step fails, read the error, fix the
 - Run `node core/…` and `sh tools/…` from the library root (`$LIB` in skill mode).
 - `core/` has ready-made tools (rendering, TTS, speech check, sampler, sfx, mux). Use them or your own stack, but don't edit `core/` or `styles/` for a user's film.
 - Never kill processes you didn't start. Don't leave background processes running.
+
+## Motion Graphics & Animation skills
+
+Alongside the 59 library styles in `styles/`, this repository ships **29 specialized Motion Graphics & Animation skills** in [`plugin/skills/`](plugin/skills/README.md). Open [`plugin/skills/lemo-motion-studio/SKILL.md`](plugin/skills/lemo-motion-studio/SKILL.md) first to route and combine them with `core/render/video.mjs`, Remotion, or Manim:
+
+- **Motion craft & direction:** `animation-principles` (12 principles, easing curves, springs, weight, stagger), `motion-art-direction`, `shot-composition`, `beat-sync-editing`, `color-motion`.
+- **Arabic RTL & kinetic typography:** `arabic-motion-graphics` (**mandatory** when designing Arabic videos — read `references/rtl-arabic.md` so Arabic cursive shaping is never broken by per-letter splitting or `letter-spacing`), `kinetic-typography`.
+- **Product, brand & explainer formats:** `motion-effects` (16 deterministic `seek(t)` UI/data/type effects), `launch-video`, `vox-explainer`, `explainer-video`, `logo-animation`, `motion-background`.
+- **Data & diagram motion:** `animated-infographic`, `chart-animation`, `diagram-animation`, `isometric-animation`, `whiteboard-animation`.
+- **Animation engines:** `javascript-animation` + `soundtrack` (pure HTML5 Canvas 2D + synthesized Web Audio), `svg-animation`, `lottie-animation`, `gsap-web`, `threejs-animation`, `shader-glsl`, `particle-system`, `remotion-video`, `manim`.
+

@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Motion Graphics Starter</title>
+  <link rel="stylesheet" href="/core/fonts/fonts.css" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+      background: #090b10;
+      color: #f8fafc;
+      font-family: system-ui, -apple-system, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    #stage {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    canvas#bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+    }
+    #camera {
+      position: absolute;
+      inset: 0;
+      transform-origin: 50% 50%;
+      will-change: transform;
+    }
+    .mask-line {
+      overflow: hidden;
+      padding-top: 0.18em; /* preserves Arabic diacritics & ascenders */
+      padding-bottom: 0.08em;
+    }
+    .word {
+      display: inline-block;
+      will-change: transform, opacity;
+    }
+  </style>
+</head>
+<body>
+  <div id="stage">
+    <canvas id="bg"></canvas>
+    <div id="camera"></div>
+  </div>
+
+  <script type="module">
+    import { clamp, lerp, seg, eo, ei, eio, back, spring, mulberry, track } from '/core/lib.js';
+
+    // 1. Single source of truth: duration & frame-locked audio events
+    window.DUR = 12.0;
+    window.EV = [
+      { t: 0.10, type: 'whoosh', gain: 0.45 },
+      { t: 0.55, type: 'hit',    gain: 0.65 },
+      { t: 4.00, type: 'click',  gain: 0.40 },
+      { t: 8.00, type: 'ding',   gain: 0.50 },
+    ];
+
+    const canvas = document.getElementById('bg');
+    const ctx = canvas.getContext('2d');
+    const camEl = document.getElementById('camera');
+
+    function syncViewport() {
+      const w = window.innerWidth || 1920;
+      const h = window.innerHeight || 1080;
+      if (canvas.width !== w || canvas.height !== h) {
+        canvas.width = w;
+        canvas.height = h;
+      }
+      return { w, h };
+    }
+
+    // Example camera track: [t, [zoom, panX, panY]]
+    const camTrack = track([
+      [0.0,  [1.06, 0, 0]],
+      [1.2,  [1.00, 0, 0]],
+      [6.0,  [1.03, 0, -12]],
+      [12.0, [1.00, 0, 0]],
+    ]);
+
+    // 2. Pure deterministic frame renderer: render(t) has zero cross-frame state
+    function render(t) {
+      t = clamp(t, 0, window.DUR);
+      const { w, h } = syncViewport();
+
+      // Ambient layer: subtle moving radial glow + deterministic grid
+      ctx.fillStyle = '#090b10';
+      ctx.fillRect(0, 0, w, h);
+
+      const gx = w * (0.5 + 0.14 * Math.sin(t * 0.55));
+      const gy = h * (0.45 + 0.10 * Math.cos(t * 0.42));
+      const grad = ctx.createRadialGradient(gx, gy, 20, gx, gy, Math.max(w, h) * 0.65);
+      grad.addColorStop(0, 'rgba(56, 189, 248, 0.18)');
+      grad.addColorStop(0.5, 'rgba(99, 102, 241, 0.07)');
+      grad.addColorStop(1, 'rgba(9, 11, 16, 0)');
+      ctx.fillStyle = grad;
+      ctx.fillRect(0, 0, w, h);
+
+      // Subtle architectural grid
+      const step = Math.round(Math.min(w, h) / 12);
+      ctx.strokeStyle = 'rgba(248, 250, 252, 0.04)';
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      for (let x = (t * 18) % step; x < w; x += step) {
+        ctx.moveTo(x, 0);
+        ctx.lineTo(x, h);
+      }
+      for (let y = 0; y < h; y += step) {
+        ctx.moveTo(0, y);
+        ctx.lineTo(w, y);
+      }
+      ctx.stroke();
+
+      // Camera transform
+      const [zoom, px, py] = camTrack(t);
+      camEl.style.transform = `translate3d(${px.toFixed(2)}px, ${py.toFixed(2)}px, 0) scale(${zoom.toFixed(4)})`;
+
+      // Replace with scene DOM / SVG / Canvas layers driven purely by `t`
+      const enter = eo(seg(t, 0.15, 0.85));
+      const exit  = ei(seg(t, 11.2, 11.9));
+      const vis   = enter * (1 - exit);
+      camEl.style.opacity = vis.toFixed(4);
+    }
+
+    window.render = render;
+    window.seek = render; // Alias for seek(t)-based motion effects
+
+    // Wait for fonts before signaling readiness to core/render/video.mjs
+    await document.fonts.ready;
+    render(0);
+    window.READY = true;
+
+    // Optional live preview loop when opened manually with ?preview=1
+    if (new URLSearchParams(location.search).get('preview') === '1') {
+      let playing = true;
+      let start = performance.now();
+      let current = 0;
+      const tick = (now) => {
+        if (playing) {
+          current = ((now - start) / 1000) % window.DUR;
+          render(current);
+        }
+        requestAnimationFrame(tick);
+      };
+      window.addEventListener('keydown', (e) => {
+        if (e.code === 'Space') {
+          playing = !playing;
+          if (playing) start = performance.now() - current * 1000;
+        } else if (e.code === 'KeyR') {
+          current = 0;
+          start = performance.now();
+          render(0);
+        } else if (e.code === 'ArrowRight') {
+          playing = false;
+          current = clamp(current + 1 / 30, 0, window.DUR);
+          render(current);
+        } else if (e.code === 'ArrowLeft') {
+          playing = false;
+          current = clamp(current - 1 / 30, 0, window.DUR);
+          render(current);
+        }
+      });
+      requestAnimationFrame(tick);
+    }
+  </script>
+</body>
+</html>

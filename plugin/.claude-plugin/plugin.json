@@ -1,6 +1,6 @@
 {
   "name": "lemo-opuscar",
-  "description": "Make a film in one of the library's code-rendered styles: your agent directs, draws, scores and mixes it.",
+  "description": "Make code-rendered films, motion graphics, Arabic RTL reels, kinetic typography, data animations, and 2D/3D videos: 59 film styles + 29 motion graphics & animation skills.",
   "author": { "name": "Lemomo", "url": "https://github.com/lemomo-ai" },
   "homepage": "https://lemomo-ai.github.io/lemo-opuscar/",
   "repository": "https://github.com/lemomo-ai/lemo-opuscar",
