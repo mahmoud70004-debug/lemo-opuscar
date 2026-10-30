@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>Pottsfield Studio — Rotten Crown (One-Shot Reel)</title>
+  <style>
+    :root {
+      --bg: #070609;
+      --pumpkin: #ff7508;
+      --gold: #fbbf24;
+      --bone: #faf5eb;
+      --muted: #b8a99a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      background: radial-gradient(circle at 50% 18%, #1d1013 0%, var(--bg) 70%);
+      color: var(--bone);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 18px 14px 36px;
+      gap: 16px;
+    }
+    header { text-align: center; max-width: 520px; }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: rgba(168, 36, 36, 0.28);
+      border: 1px solid rgba(255, 117, 8, 0.55);
+      color: var(--gold);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    h1 { font-size: 20px; font-weight: 800; }
+    h1 span { color: var(--pumpkin); }
+    .sub { font-size: 13px; color: var(--muted); margin-top: 4px; }
+    .stage {
+      width: 100%;
+      max-width: 390px;
+      aspect-ratio: 9 / 16;
+      border-radius: 20px;
+      overflow: hidden;
+      background: #000;
+      border: 2px solid rgba(255, 117, 8, 0.65);
+      box-shadow: 0 18px 55px rgba(0, 0, 0, 0.8), 0 0 36px rgba(255, 117, 8, 0.22);
+    }
+    video { width: 100%; height: 100%; object-fit: contain; display: block; background: #000; }
+    .actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 520px; }
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+      padding: 11px 18px; border-radius: 12px; font-size: 14px; font-weight: 700;
+      text-decoration: none; cursor: pointer;
+      border: 1px solid rgba(255, 117, 8, 0.55);
+      background: rgba(255, 117, 8, 0.14); color: var(--bone);
+    }
+    .btn.primary { background: linear-gradient(135deg, var(--pumpkin), #d94e06); color: #0b0708; border-color: var(--gold); }
+    .chapters {
+      width: 100%; max-width: 520px; background: rgba(18, 12, 16, 0.85);
+      border: 1px solid rgba(255, 117, 8, 0.25); border-radius: 14px; padding: 12px;
+    }
+    .chapters-title {
+      font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--gold); margin-bottom: 8px; text-align: center; font-weight: 700;
+    }
+    .chips { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+    .chip {
+      background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 117, 8, 0.32);
+      color: var(--bone); padding: 6px 10px; border-radius: 8px; font-size: 12px; cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badge">1080×1920 · 60 FPS · -14.2 LUFS · Seamless Loop</div>
+    <h1><span>Pottsfield Studio</span> — Rotten Crown</h1>
+    <p class="sub">Driven by Story. Lit by Soul. (42.18s One-Shot Reel)</p>
+  </header>
+
+  <div class="stage">
+    <video id="reel" controls playsinline loop preload="metadata" poster="./poster.jpg">
+      <source src="https://github.com/mahmoud70004-debug/lemo-opuscar/raw/arena/c1e9f938-lemo-opuscar/reels/pottsfield-rotten-crown/pottsfield-rotten-crown.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <div class="actions">
+    <button class="btn primary" type="button" onclick="playWithSound()">▶ Play with Sound</button>
+    <a class="btn" href="https://github.com/mahmoud70004-debug/lemo-opuscar/raw/arena/c1e9f938-lemo-opuscar/reels/pottsfield-rotten-crown/pottsfield-rotten-crown.mp4?download=1" download="pottsfield-rotten-crown.mp4">⬇ Download MP4</a>
+    <a class="btn" href="./poster.jpg" download="pottsfield-rotten-crown-poster.jpg">🖼 Poster JPG</a>
+    <a class="btn" href="./pottsfield-rotten-crown.srt" download="pottsfield-rotten-crown.srt">💬 SRT Captions</a>
+  </div>
+
+  <div class="chapters">
+    <div class="chapters-title">Jump to One-Shot Camera Station</div>
+    <div class="chips">
+      <button class="chip" onclick="seekTo(0.0)">0:00 · Play Store Hook</button>
+      <button class="chip" onclick="seekTo(5.15)">0:05 · 10,000 Taps</button>
+      <button class="chip" onclick="seekTo(9.40)">0:09 · Dark Patterns</button>
+      <button class="chip" onclick="seekTo(13.65)">0:14 · Clown Spreadsheet</button>
+      <button class="chip" onclick="seekTo(17.45)">0:17 · Shatter &amp; Pottsfield</button>
+      <button class="chip" onclick="seekTo(22.10)">0:22 · Three Pillars</button>
+      <button class="chip" onclick="seekTo(27.10)">0:27 · Forging Crown</button>
+      <button class="chip" onclick="seekTo(29.75)">0:30 · Rotten Crown Gameplay</button>
+      <button class="chip" onclick="seekTo(36.75)">0:37 · Logo &amp; Tagline</button>
+    </div>
+  </div>
+
+  <script>
+    const v = document.getElementById('reel');
+    function playWithSound() { v.muted = false; v.volume = 1.0; v.currentTime = 0; v.play(); }
+    function seekTo(sec) { v.muted = false; v.currentTime = sec; v.play(); }
+  </script>
+</body>
+</html>
