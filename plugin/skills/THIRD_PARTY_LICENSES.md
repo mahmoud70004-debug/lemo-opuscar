@@ -1,6 +1,6 @@
-# Third-Party Open-Source Skill Licenses
+# Third-Party Skill Licenses
 
-All community Motion Graphics and Animation skills bundled under `plugin/skills/` are distributed under the **MIT License**.
+Community Motion Graphics, Video Composition, and Animation skills bundled under `plugin/skills/` carry their respective upstream open licenses (MIT, Apache-2.0, and PolyForm Noncommercial 1.0.0; see individual `LICENSE` files where applicable).
 
 ## Source Attribution Table
 
@@ -18,6 +18,9 @@ All community Motion Graphics and Animation skills bundled under `plugin/skills/
 | [charlie947/motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills) | Copyright (c) 2026 Charlie Hills | MIT | `motion-effects`, `launch-video`, `vox-explainer` |
 | [TimoteoAltobrando/ai-video-skill](https://github.com/TimoteoAltobrando/ai-video-skill) | Copyright (c) 2026 Timoteo Altobrando | MIT | `mixed-media-reel` (references) |
 | [Sanidhya14321/video-forge](https://github.com/Sanidhya14321/video-forge) | Copyright (c) 2026 Sanidhya | MIT | `mixed-media-reel` (references) |
+| [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Copyright (c) 2026 HeyGen | Apache-2.0 (`hyperframes/LICENSE`) | `hyperframes` (doctrine, `cut-the-curve`, `seam-craft`, `captions-overlay`, `oversized-cursor`, shader transitions) |
+| [feitangyuan/onetake](https://github.com/feitangyuan/onetake) | Copyright (c) 2026 Patrick | PolyForm Noncommercial 1.0.0 (`onetake/LICENSE`) | `onetake` (`lib/motion.js`, `lib/ui_kit.js`, continuity & rhythm references) |
+| [pyang5166/gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll) & [MegaTroll222/VOX-COLLAGE-BROLL](https://github.com/MegaTroll222/VOX-COLLAGE-BROLL) | Copyright (c) 2026 pyang5166 & MegaTroll222 | MIT (`collage-broll/LICENSE`) | `collage-broll` |
 
 ---
 

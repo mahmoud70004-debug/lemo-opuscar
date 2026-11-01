@@ -1,35 +1,43 @@
 1
-00:00:00,140 --> 00:00:04,630
-Open the Play Store right now. Ninety-nine percent pure brainrot.
+00:00:00,200 --> 00:00:04,930
+Have you opened the Play Store lately? It's ninety-nine percent pure brainrot.
 
 2
-00:00:04,820 --> 00:00:08,960
+00:00:05,350 --> 00:00:09,900
 Tap ten thousand times, watch fake numbers hit a quintillion.
 
 3
-00:00:08,970 --> 00:00:13,090
+00:00:10,320 --> 00:00:14,940
 Fake puzzle ads, microscopic X buttons, endless timers.
 
 4
-00:00:13,480 --> 00:00:16,640
-Spreadsheets in a clown suit built to hijack your dopamine.
+00:00:15,390 --> 00:00:19,260
+Spreadsheets in a clown suit, built to hijack your dopamine.
 
 5
-00:00:17,260 --> 00:00:20,990
+00:00:20,640 --> 00:00:24,680
 At Pottsfield Studio, we refused to clone the slop.
 
 6
-00:00:21,140 --> 00:00:26,470
+00:00:25,300 --> 00:00:31,070
 We craft games with narrative depth, bold visual identity, and worlds that actually matter.
 
 7
-00:00:26,720 --> 00:00:30,430
-Right now, we are forging our first game: Rotten Crown.
+00:00:31,850 --> 00:00:35,850
+Right now, we are forging our debut title: Rotten Crown.
 
 8
-00:00:30,990 --> 00:00:36,500
-A dark-fantasy journey with real story, real atmosphere, and zero brainrot mechanics.
+00:00:37,330 --> 00:00:39,140
+Step into Thornfield.
 
 9
-00:00:36,860 --> 00:00:40,920
+00:00:40,860 --> 00:00:43,170
+Face the silent watchers at the gate.
+
+10
+00:00:44,950 --> 00:00:52,070
+Explore a haunting dark-fantasy world where every shadow holds a story, and zero brainrot mechanics exist.
+
+11
+00:00:52,990 --> 00:00:57,380
 Pottsfield Studio. Driven by Story. Lit by Soul.

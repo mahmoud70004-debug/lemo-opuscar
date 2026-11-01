@@ -76,7 +76,10 @@ This folder holds **30 Agent Skills** (`SKILL.md` format) for directing, animati
 | [`manim`](manim/SKILL.md) | تحريك المعادلات الرياضية والرسوم العلمية والخوارزميات بأسلوب `3Blue1Brown` عبر `Manim` | Mathematical, physical, and algorithmic Python animations with Manim Community Edition |
 | [`open-media-sourcing`](open-media-sourcing/SKILL.md) | جلب وفحص لقطات الشاشة والصور والوسائط الحقيقية من الإنترنت المفتوح وويكيميديا وأرشيف الإنترنت | Search, audit, and license-log real screenshots, photographs, and open-archive media (`footage.py`) |
 | [`mixed-media-reel`](mixed-media-reel/SKILL.md) | إخراج ريلز مختلطة الوسائط (`Mixed-Media Reels`) عالية الحماس بلقطات حقيقية ومؤثرات تحطيم وعدسات مكبرة | High-energy mixed-media Reels combining real screenshots, 2.5D parallax, polygon shatter VFX, and trailer drums |
+| [`hyperframes`](hyperframes/SKILL.md) | إطار ومهارات `HyperFrames` من `HeyGen` لبناء الفيديوهات والانتقالات المظللة (`Shader Transitions`، `Cut-the-Curve`، `Seam Craft`) | HeyGen's HyperFrames video composition doctrine, `cut-the-curve` velocity seams, `captions-overlay`, and GLSL shader transitions |
+| [`onetake`](onetake/SKILL.md) | إخراج فيديوهات اللقطة الواحدة المتصلة (`OneTake`): مكتبة `motion.js` (39 حركة مقاسة)، استمرارية العناصر (`Carry ≥ 0.75`)، وكاميرا متصلة | Continuous one-shot motion films (`lib/motion.js` 39 pure-time primitives, `morphRect`, `zoomThrough`, `iris`, camera rig & carry oracle) |
+| [`collage-broll`](collage-broll/SKILL.md) | تصميم مشاهد `Collage B-Roll` الورقية ذات الفكرة الواضحة في كل لقطة مع تجميع تدريجي (`Assemble-from-Empty`) ومساحات مريحة للعين | Editorial halftone paper-collage B-roll: one clear metaphor per sentence, 2–4 cutout groups max, cream keylines, and assemble-from-empty motion |
 
 ---
 
-See [`THIRD_PARTY_LICENSES.md`](THIRD_PARTY_LICENSES.md) for MIT license attributions and upstream GitHub sources.
+See [`THIRD_PARTY_LICENSES.md`](THIRD_PARTY_LICENSES.md) for license attributions and upstream GitHub sources.
