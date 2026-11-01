@@ -1,43 +1,71 @@
 1
-00:00:00,950 --> 00:00:04,347
-Somewhere along the way, games forgot how to be quiet.
+00:00:00,100 --> 00:00:01,500
+Opened the Play Store lately?
 
 2
-00:00:05,150 --> 00:00:08,564
-Open your phone tonight, and everything begs for your eyes.
+00:00:01,500 --> 00:00:03,183
+It's pure brainrot.
 
 3
-00:00:08,664 --> 00:00:11,583
-Flashing numbers, fake timers, endless noise.
+00:00:03,367 --> 00:00:04,533
+Tap endlessly,
 
 4
-00:00:12,300 --> 00:00:16,542
-All of it built to keep your thumb moving, while your mind feels nothing at all.
+00:00:04,533 --> 00:00:07,200
+watch fake numbers hit a quintillion.
 
 5
-00:00:18,100 --> 00:00:20,172
-Whatever happened to getting lost in the dark?
+00:00:07,367 --> 00:00:08,700
+Fake puzzle ads,
 
 6
-00:00:21,350 --> 00:00:24,221
-To standing small beneath an ancient sky,
+00:00:08,700 --> 00:00:10,550
+microscopic [X] buttons.
 
 7
-00:00:24,321 --> 00:00:28,012
-where nothing holds your hand, and every shadow feels older than you.
+00:00:10,733 --> 00:00:12,250
+Just spreadsheets,
 
 8
-00:00:29,650 --> 00:00:33,355
-Out of that silence, we began shaping a free dark-fantasy world,
+00:00:12,250 --> 00:00:13,767
+built to hijack your dopamine.
 
 9
-00:00:33,435 --> 00:00:36,355
-called Rotten Crown.
+00:00:14,317 --> 00:00:18,050
+At Pottsfield Studio, we refused to clone the slop.
 
 10
-00:00:37,350 --> 00:00:42,975
-Rain over pale fields. Cold iron, and silent watchers where the fires went out.
+00:00:18,250 --> 00:00:20,067
+We craft narrative depth,
 
 11
-00:00:44,200 --> 00:00:47,410
-Still unfinished. Still taking form in the shadows.
+00:00:20,067 --> 00:00:21,167
+bold identity,
+
+12
+00:00:21,167 --> 00:00:22,683
+and worlds that matter.
+
+13
+00:00:23,033 --> 00:00:25,850
+Meet our debut title: Rotten Crown.
+
+14
+00:00:25,850 --> 00:00:27,517
+Step into Thornfield.
+
+15
+00:00:27,850 --> 00:00:30,200
+Face silent watchers at the gate.
+
+16
+00:00:30,533 --> 00:00:34,017
+A dark-fantasy world where every shadow holds a story,
+
+17
+00:00:34,017 --> 00:00:35,583
+with zero brainrot.
+
+18
+00:00:35,983 --> 00:00:39,900
+Pottsfield Studio. Driven by Story. Lit by Soul.

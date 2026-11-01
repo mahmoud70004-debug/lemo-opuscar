@@ -3,39 +3,38 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Pottsfield Studio — Rotten Crown (V4 Nocturnal Dark Fantasy · Seamless Loop · 60fps)</title>
+  <title>Pottsfield Studio — Rotten Crown (V3 Tight Cut · 60fps)</title>
   <style>
     :root {
-      --bg: #050611;
-      --card: #0e1024;
-      --magenta: #b8296b;
-      --rose: #e879ae;
-      --amber: #f59e0b;
-      --bone: #f6f1e9;
-      --muted: #9892b8;
+      --bg: #060714;
+      --card: #101228;
+      --violet: #8b5cf6;
+      --orange: #ff7508;
+      --gold: #fbbf24;
+      --bone: #faf5eb;
+      --muted: #9ca3c4;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       min-height: 100dvh;
-      background:
-        radial-gradient(circle at 50% 16%, rgba(184, 41, 107, 0.18) 0%, rgba(20, 18, 52, 0.36) 36%, #050611 76%);
+      background: radial-gradient(circle at 50% 18%, #1d1646 0%, #060714 70%);
       color: var(--bone);
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 20px 16px 34px;
+      padding: 20px 16px 32px;
       gap: 18px;
     }
     header { text-align: center; max-width: 540px; }
     .badge {
       display: inline-block;
-      padding: 4px 13px;
+      padding: 4px 12px;
       border-radius: 999px;
-      background: rgba(184, 41, 107, 0.16);
-      border: 1px solid rgba(232, 121, 174, 0.38);
-      color: var(--rose);
+      background: rgba(139, 92, 246, 0.16);
+      border: 1px solid rgba(167, 139, 250, 0.45);
+      color: #c4b5fd;
       font-size: 11px;
       font-weight: 700;
       letter-spacing: 0.14em;
@@ -45,11 +44,11 @@
     h1 {
       font-size: 22px;
       font-weight: 800;
-      letter-spacing: 0.04em;
+      letter-spacing: 0.02em;
       color: var(--bone);
     }
     p.sub {
-      margin-top: 5px;
+      margin-top: 4px;
       font-size: 13px;
       color: var(--muted);
     }
@@ -59,18 +58,18 @@
       aspect-ratio: 9 / 16;
       border-radius: 26px;
       overflow: hidden;
-      background: #050611;
-      border: 1.5px solid rgba(184, 41, 107, 0.42);
+      background: #000;
+      border: 2px solid rgba(139, 92, 246, 0.48);
       box-shadow:
-        0 28px 84px rgba(0, 0, 0, 0.92),
-        0 0 64px rgba(184, 41, 107, 0.22);
+        0 26px 80px rgba(0, 0, 0, 0.88),
+        0 0 60px rgba(124, 58, 237, 0.28);
     }
     video {
       width: 100%;
       height: 100%;
       object-fit: cover;
       display: block;
-      background: #050611;
+      background: #060714;
     }
     .actions {
       display: flex;
@@ -93,8 +92,8 @@
       color: var(--bone);
     }
     a.btn.primary, button.btn.primary {
-      background: linear-gradient(135deg, #9d174d, #4c1d95);
-      border-color: rgba(232, 121, 174, 0.65);
+      background: linear-gradient(135deg, #7c3aed, #4f46e5);
+      border-color: #a78bfa;
       color: #fff;
     }
     a.btn:hover, button.btn:hover { transform: translateY(-1px); opacity: 0.94; }
@@ -103,25 +102,25 @@
       flex-wrap: wrap;
       gap: 6px;
       justify-content: center;
-      max-width: 580px;
+      max-width: 560px;
     }
     .chip {
       padding: 5px 10px;
       border-radius: 8px;
       font-size: 11px;
-      background: rgba(255, 255, 255, 0.04);
+      background: rgba(255, 255, 255, 0.05);
       border: 1px solid rgba(255, 255, 255, 0.1);
       color: var(--muted);
       cursor: pointer;
     }
-    .chip:hover { color: var(--rose); border-color: rgba(232, 121, 174, 0.55); }
+    .chip:hover { color: #c4b5fd; border-color: rgba(167, 139, 250, 0.55); }
   </style>
 </head>
 <body>
   <header>
-    <span class="badge">Pottsfield Studio · V4 Nocturnal Dark Fantasy · Infinite Loop</span>
+    <span class="badge">Pottsfield Studio · Compressed V3 Reel (8209c58 Template)</span>
     <h1>Driven by Story. Lit by Soul.</h1>
-    <p class="sub">1080×1920 · 60fps · 60.0s Seamless Loop · Slowed + Reverb CS01 Score</p>
+    <p class="sub">1080×1920 · 60fps · 41.2s · SFX-Only Intro → Slowed Hide (CS01) on Rotten Crown</p>
   </header>
 
   <div class="phone-frame">
@@ -130,7 +129,6 @@
       src="./pottsfield-rotten-crown.mp4"
       poster="./poster.jpg"
       controls
-      loop
       playsinline
       preload="metadata"
     >
@@ -139,34 +137,32 @@
   </div>
 
   <div class="actions">
-    <button class="btn primary" onclick="playUnmuted()">▶ Play Seamless Loop with Sound</button>
-    <a class="btn" href="./pottsfield-rotten-crown.mp4" download="Pottsfield-Studio-Rotten-Crown-V4-Reel.mp4">⬇ Download MP4 (8.3 MB)</a>
+    <button class="btn primary" onclick="playUnmuted()">▶ Play Reel with Sound</button>
+    <a class="btn" href="./pottsfield-rotten-crown.mp4" download="Pottsfield-Studio-Rotten-Crown-Tight-Reel.mp4">⬇ Download MP4</a>
   </div>
 
   <div class="chapters">
-    <button class="chip" onclick="seekTo(0)">00:00 Nocturnal Collage</button>
-    <button class="chip" onclick="seekTo(5.15)">00:05 Hollow Numbers</button>
-    <button class="chip" onclick="seekTo(8.20)">00:08 0.2mm [X] Trap</button>
-    <button class="chip" onclick="seekTo(12.30)">00:12 Endless Loop Grid</button>
-    <button class="chip" onclick="seekTo(18.10)">00:18 Lost in the Dark</button>
-    <button class="chip" onclick="seekTo(21.80)">00:22 Ancient Sky</button>
-    <button class="chip" onclick="seekTo(29.65)">00:30 Rotten Crown (Free)</button>
-    <button class="chip" onclick="seekTo(37.35)">00:37 Thornfield Rain</button>
-    <button class="chip" onclick="seekTo(40.40)">00:40 Silent Watcher</button>
-    <button class="chip" onclick="seekTo(48.80)">00:49 Unspoken Loop Finale</button>
+    <button class="chip" onclick="seekTo(0)">00:00 Play Store Collage</button>
+    <button class="chip" onclick="seekTo(3.27)">00:03 $1 Quintillion</button>
+    <button class="chip" onclick="seekTo(8.70)">00:08 [X] Trap</button>
+    <button class="chip" onclick="seekTo(10.63)">00:10 Dopamine Spreadsheet</button>
+    <button class="chip" onclick="seekTo(13.90)">00:14 Shader Burn → Pottsfield</button>
+    <button class="chip" onclick="seekTo(18.17)">00:18 Three Pillars</button>
+    <button class="chip" onclick="seekTo(22.82)">00:23 Rotten Crown · Thornfield (Hide Starts)</button>
+    <button class="chip" onclick="seekTo(27.65)">00:28 The Silent Watcher</button>
+    <button class="chip" onclick="seekTo(30.33)">00:30 Into The Gloaming</button>
+    <button class="chip" onclick="seekTo(35.73)">00:36 Driven by Story</button>
   </div>
 
   <script>
     const v = document.getElementById('reel');
     function playUnmuted() {
       v.muted = false;
-      v.loop = true;
       v.currentTime = 0;
       v.play();
     }
     function seekTo(sec) {
       v.muted = false;
-      v.loop = true;
       v.currentTime = sec;
       v.play();
     }
