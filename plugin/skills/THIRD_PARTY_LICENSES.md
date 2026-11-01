@@ -16,6 +16,8 @@ All community Motion Graphics and Animation skills bundled under `plugin/skills/
 | [iart-ai/manim-skills](https://github.com/iart-ai/manim-skills) | Copyright (c) 2026 iart.ai | MIT | `manim` |
 | [sudadom/arabic-motion-graphics-skill](https://github.com/sudadom/arabic-motion-graphics-skill) | Copyright (c) 2026 Sudad Hassan (Dev Flow) | MIT | `arabic-motion-graphics` |
 | [charlie947/motion-graphics-skills](https://github.com/charlie947/motion-graphics-skills) | Copyright (c) 2026 Charlie Hills | MIT | `motion-effects`, `launch-video`, `vox-explainer` |
+| [TimoteoAltobrando/ai-video-skill](https://github.com/TimoteoAltobrando/ai-video-skill) | Copyright (c) 2026 Timoteo Altobrando | MIT | `mixed-media-reel` (references) |
+| [Sanidhya14321/video-forge](https://github.com/Sanidhya14321/video-forge) | Copyright (c) 2026 Sanidhya | MIT | `mixed-media-reel` (references) |
 
 ---
 
@@ -27,6 +29,8 @@ MIT License
 Copyright (c) 2026 iart.ai
 Copyright (c) 2026 Sudad Hassan (Dev Flow)
 Copyright (c) 2026 Charlie Hills
+Copyright (c) 2026 Timoteo Altobrando
+Copyright (c) 2026 Sanidhya
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

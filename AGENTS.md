@@ -90,8 +90,9 @@ Report progress in the user's language. If a step fails, read the error, fix the
 
 ## Motion Graphics & Animation skills
 
-Alongside the 59 library styles in `styles/`, this repository ships **29 specialized Motion Graphics & Animation skills** in [`plugin/skills/`](plugin/skills/README.md). Open [`plugin/skills/lemo-motion-studio/SKILL.md`](plugin/skills/lemo-motion-studio/SKILL.md) first to route and combine them with `core/render/video.mjs`, Remotion, or Manim:
+Alongside the 59 library styles in `styles/`, this repository ships **31 specialized Motion Graphics, Mixed-Media & Animation skills** in [`plugin/skills/`](plugin/skills/README.md). Open [`plugin/skills/lemo-motion-studio/SKILL.md`](plugin/skills/lemo-motion-studio/SKILL.md) first to route and combine them with `core/render/video.mjs`, Remotion, or Manim:
 
+- **Mixed-media reels & open-web sourcing (anti-AI-slop):** `mixed-media-reel` (**mandatory** for high-energy vertical Reels/TikToks/Shorts — forbids bare code-drawn wireframe boxes on dark voids, layers real screenshots/photography with 2.5D parallax, whip-pans, sniper loupes, glass shatters, and trailer sound design), `open-media-sourcing` (fetches & visually audits real open-web screenshots, Wikimedia Commons photos, and Pexels/Pixabay B-roll).
 - **Motion craft & direction:** `animation-principles` (12 principles, easing curves, springs, weight, stagger), `motion-art-direction`, `shot-composition`, `beat-sync-editing`, `color-motion`.
 - **Arabic RTL & kinetic typography:** `arabic-motion-graphics` (**mandatory** when designing Arabic videos — read `references/rtl-arabic.md` so Arabic cursive shaping is never broken by per-letter splitting or `letter-spacing`), `kinetic-typography`.
 - **Product, brand & explainer formats:** `motion-effects` (16 deterministic `seek(t)` UI/data/type effects), `launch-video`, `vox-explainer`, `explainer-video`, `logo-animation`, `motion-background`.

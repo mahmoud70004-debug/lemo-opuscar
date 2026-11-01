@@ -74,6 +74,8 @@ This folder holds **30 Agent Skills** (`SKILL.md` format) for directing, animati
 | [`particle-system`](particle-system/SKILL.md) | أنظمة الجزيئات (`Particles`) ثنائية وثلاثية الأبعاد للشعارات والمؤثرات | Deterministic 2D Canvas and 3D GPU instanced particle systems |
 | [`remotion-video`](remotion-video/SKILL.md) | صناعة الفيديوهات برمجياً باستخدام إطار `Remotion` (`React` + `TypeScript`) | Programmatic multi-scene video production with Remotion (`useCurrentFrame`, `spring`, `Sequence`) |
 | [`manim`](manim/SKILL.md) | تحريك المعادلات الرياضية والرسوم العلمية والخوارزميات بأسلوب `3Blue1Brown` عبر `Manim` | Mathematical, physical, and algorithmic Python animations with Manim Community Edition |
+| [`open-media-sourcing`](open-media-sourcing/SKILL.md) | جلب وفحص لقطات الشاشة والصور والوسائط الحقيقية من الإنترنت المفتوح وويكيميديا وأرشيف الإنترنت | Search, audit, and license-log real screenshots, photographs, and open-archive media (`footage.py`) |
+| [`mixed-media-reel`](mixed-media-reel/SKILL.md) | إخراج ريلز مختلطة الوسائط (`Mixed-Media Reels`) عالية الحماس بلقطات حقيقية ومؤثرات تحطيم وعدسات مكبرة | High-energy mixed-media Reels combining real screenshots, 2.5D parallax, polygon shatter VFX, and trailer drums |
 
 ---
 
