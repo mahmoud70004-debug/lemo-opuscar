@@ -1,7 +1,7 @@
 # Skills Catalog · فهرس مهارات الموشن غرافيك والأنميشن
 
-This folder holds **30 Agent Skills** (`SKILL.md` format) for directing, animating, and rendering videos, motion graphics, and animations entirely in code.
-يحتوي هذا المجلد على **30 مهارة برمجية (`SKILL.md`)** مخصصة لتصميم وإنتاج فيديوهات الموشن غرافيك والأنميشن بالكامل عبر الكود (مع دعم كامل للغة العربية واتجاه RTL).
+This folder holds **37 Agent Skills** (`SKILL.md` format) for directing, animating, and rendering videos, motion graphics, pixel art, and animations entirely in code.
+يحتوي هذا المجلد على **37 مهارة برمجية (`SKILL.md`)** مخصصة لتصميم وإنتاج فيديوهات الموشن غرافيك، البيكسل آرت عالي الكثافة، والأنميشن بالكامل عبر الكود (مع دعم كامل للغة العربية واتجاه RTL).
 
 ---
 
@@ -79,6 +79,9 @@ This folder holds **30 Agent Skills** (`SKILL.md` format) for directing, animati
 | [`hyperframes`](hyperframes/SKILL.md) | إطار ومهارات `HyperFrames` من `HeyGen` لبناء الفيديوهات والانتقالات المظللة (`Shader Transitions`، `Cut-the-Curve`، `Seam Craft`) | HeyGen's HyperFrames video composition doctrine, `cut-the-curve` velocity seams, `captions-overlay`, and GLSL shader transitions |
 | [`onetake`](onetake/SKILL.md) | إخراج فيديوهات اللقطة الواحدة المتصلة (`OneTake`): مكتبة `motion.js` (39 حركة مقاسة)، استمرارية العناصر (`Carry ≥ 0.75`)، وكاميرا متصلة | Continuous one-shot motion films (`lib/motion.js` 39 pure-time primitives, `morphRect`, `zoomThrough`, `iris`, camera rig & carry oracle) |
 | [`collage-broll`](collage-broll/SKILL.md) | تصميم مشاهد `Collage B-Roll` الورقية ذات الفكرة الواضحة في كل لقطة مع تجميع تدريجي (`Assemble-from-Empty`) ومساحات مريحة للعين | Editorial halftone paper-collage B-roll: one clear metaphor per sentence, 2–4 cutout groups max, cream keylines, and assemble-from-empty motion |
+| [`pixeloe`](pixeloe/SKILL.md) | تحويل وتوليد البيكسل آرت فائق الكثافة والدقة عبر توسيع الخطوط الحساس للتباين (`Contrast-Aware Outline Expansion`) وتكميم الألوان | High-density pixelization via Contrast-Aware Outline Expansion (`KohakuBlueleaf/PixelOE`), CIELAB K-means palettes, and integer grids |
+| [`pixel-mv`](pixel-mv/SKILL.md) | إخراج فيديوهات البيكسل آرت على شبكة منطقية مضاعفة بأعداد صحيحة، تدرجات منقطة (`Dithering`)، تحريك متدرج (`8–12fps`)، و16 انتقال بيكسل | Integer-scaled pixel-art video production, checkerboard/Bayer dithering, stepped sprite cadence, palette cycling, and 16 pixel transitions |
+| [`pixel-art-pro`](pixel-art-pro/SKILL.md) | تقنيات البيكسل آرت الاحترافية: التنقيط المرتب (`Bayer 2×2/4×4/8×8`)، التظليل وإزاحة اللون (`Hue Shifting`)، وتحريك الشخصيات والهجوم | Professional pixel-art dithering (`Bayer`, `Floyd-Steinberg`), dark-fantasy color ramps, selective outlines, and variable-timing attack/walk animation |
 
 ---
 

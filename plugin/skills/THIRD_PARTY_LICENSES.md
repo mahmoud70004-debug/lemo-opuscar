@@ -21,6 +21,9 @@ Community Motion Graphics, Video Composition, and Animation skills bundled under
 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | Copyright (c) 2026 HeyGen | Apache-2.0 (`hyperframes/LICENSE`) | `hyperframes` (doctrine, `cut-the-curve`, `seam-craft`, `captions-overlay`, `oversized-cursor`, shader transitions) |
 | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) | Copyright (c) 2026 Patrick | PolyForm Noncommercial 1.0.0 (`onetake/LICENSE`) | `onetake` (`lib/motion.js`, `lib/ui_kit.js`, continuity & rhythm references) |
 | [pyang5166/gbro-collage-broll](https://github.com/pyang5166/gbro-collage-broll) & [MegaTroll222/VOX-COLLAGE-BROLL](https://github.com/MegaTroll222/VOX-COLLAGE-BROLL) | Copyright (c) 2026 pyang5166 & MegaTroll222 | MIT (`collage-broll/LICENSE`) | `collage-broll` |
+| [KohakuBlueleaf/PixelOE](https://github.com/KohakuBlueleaf/PixelOE) | Copyright (c) 2024–2026 Shin-Ying Yeh (KohakuBlueleaf) | Apache-2.0 (`pixeloe/LICENSE`) | `pixeloe` (`lib/` contrast-aware outline expansion & pixelization) |
+| [wdu496132-rgb/pixel-mv-skill](https://github.com/wdu496132-rgb/pixel-mv-skill) | Copyright (c) 2026 Du Wei | MIT (`pixel-mv/LICENSE`) | `pixel-mv` (integer-grid pixel video & 16 pixel transitions) |
+| [willibrandon/pixel-plugin](https://github.com/willibrandon/pixel-plugin) | Copyright (c) 2025 Brandon Williams | MIT (`pixel-art-pro/LICENSE`) | `pixel-art-pro` (Bayer dithering, color ramps & sprite animation) |
 
 ---
 

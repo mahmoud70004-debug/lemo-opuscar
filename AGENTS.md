@@ -97,5 +97,5 @@ Alongside the 59 library styles in `styles/`, this repository ships **34 special
 - **Arabic RTL & kinetic typography:** `arabic-motion-graphics` (**mandatory** when designing Arabic videos — read `references/rtl-arabic.md` so Arabic cursive shaping is never broken by per-letter splitting or `letter-spacing`), `kinetic-typography`.
 - **Product, brand & explainer formats:** `motion-effects` (16 deterministic `seek(t)` UI/data/type effects), `launch-video`, `vox-explainer`, `explainer-video`, `logo-animation`, `motion-background`.
 - **Data & diagram motion:** `animated-infographic`, `chart-animation`, `diagram-animation`, `isometric-animation`, `whiteboard-animation`.
-- **Animation engines:** `javascript-animation` + `soundtrack` (pure HTML5 Canvas 2D + synthesized Web Audio), `svg-animation`, `lottie-animation`, `gsap-web`, `threejs-animation`, `shader-glsl`, `particle-system`, `remotion-video`, `manim`.
+- **Animation engines & pixel art:** `javascript-animation` + `soundtrack` (pure HTML5 Canvas 2D + synthesized Web Audio), `svg-animation`, `lottie-animation`, `gsap-web`, `threejs-animation`, `shader-glsl`, `particle-system`, `remotion-video`, `manim`, `pixeloe` (contrast-aware high-density pixelization), `pixel-mv` (integer-scaled pixel video & transitions), `pixel-art-pro` (Bayer dithering, dark-fantasy ramps & sprite combat animation).
 

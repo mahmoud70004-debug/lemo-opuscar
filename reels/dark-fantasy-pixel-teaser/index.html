@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Untitled Dark Fantasy — High-Density Pixel Art Teaser (60fps · SFX Only)</title>
+  <style>
+    :root {
+      --bg: #05060b;
+      --card: #0c1020;
+      --cobalt: #245ec4;
+      --crimson: #b31921;
+      --bone: #e2dac9;
+      --muted: #7f8ba8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100dvh;
+      background: radial-gradient(circle at 50% 15%, #0e1e48 0%, #05060b 72%);
+      color: var(--bone);
+      font-family: ui-monospace, "JetBrains Mono", SFMono-Regular, Menlo, Consolas, monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 16px 32px;
+      gap: 16px;
+    }
+    header { text-align: center; max-width: 520px; }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 4px;
+      background: rgba(36, 94, 196, 0.16);
+      border: 1px solid rgba(79, 141, 245, 0.42);
+      color: #9ec5ff;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--bone);
+    }
+    p.sub {
+      margin-top: 5px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .phone-frame {
+      position: relative;
+      width: min(92vw, 415px);
+      aspect-ratio: 9 / 16;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #05060b;
+      border: 2px solid rgba(79, 141, 245, 0.42);
+      box-shadow:
+        0 26px 80px rgba(0, 0, 0, 0.92),
+        0 0 48px rgba(20, 54, 122, 0.35);
+    }
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      background: #05060b;
+      image-rendering: pixelated;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    a.btn, button.btn {
+      appearance: none;
+      cursor: pointer;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      transition: transform 0.12s ease, opacity 0.12s ease;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      background: var(--card);
+      color: var(--bone);
+    }
+    a.btn.primary, button.btn.primary {
+      background: linear-gradient(135deg, #1b4596, #7a1019);
+      border-color: rgba(158, 197, 255, 0.55);
+      color: #fff;
+    }
+    a.btn:hover, button.btn:hover { transform: translateY(-1px); opacity: 0.94; }
+    .chapters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content: center;
+      max-width: 560px;
+    }
+    .chip {
+      padding: 5px 9px;
+      border-radius: 4px;
+      font-family: inherit;
+      font-size: 11px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: var(--muted);
+      cursor: pointer;
+    }
+    .chip:hover { color: #9ec5ff; border-color: rgba(79, 141, 245, 0.55); }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="badge">540×960 ×2 Grid · 1080×1920 @ 60fps · Pure Foley &amp; Combat SFX</span>
+    <h1>“The music stopped. The fires are out.”</h1>
+    <p class="sub">1:00 Enigmatic High-Density Pixel Art Teaser · Ready for External Music Overlay</p>
+  </header>
+
+  <div class="phone-frame">
+    <video
+      id="reel"
+      src="./dark-fantasy-pixel-teaser.mp4"
+      poster="./poster.jpg"
+      controls
+      playsinline
+      preload="metadata"
+    ></video>
+  </div>
+
+  <div class="actions">
+    <button class="btn primary" onclick="playUnmuted()">▶ Play Teaser (SFX)</button>
+    <a class="btn" href="./dark-fantasy-pixel-teaser.mp4" download="Dark-Fantasy-Pixel-Teaser-60fps-SFX.mp4">⬇ Download MP4</a>
+  </div>
+
+  <div class="chapters">
+    <button class="chip" onclick="seekTo(0)">I · Moonlit Field</button>
+    <button class="chip" onclick="seekTo(6.2)">II · Drawn Steel</button>
+    <button class="chip" onclick="seekTo(12.2)">III · The Scarecrow</button>
+    <button class="chip" onclick="seekTo(18.2)">IV · Dark Threshold</button>
+    <button class="chip" onclick="seekTo(24.2)">V · Bone Charms</button>
+    <button class="chip" onclick="seekTo(30.2)">VI · Forest Duel</button>
+    <button class="chip" onclick="seekTo(36.8)">VII · Citadel Rain</button>
+    <button class="chip" onclick="seekTo(42.8)">VIII · The Watcher</button>
+    <button class="chip" onclick="seekTo(49.0)">IX · Sanctum Clash</button>
+    <button class="chip" onclick="seekTo(54.8)">X · Forgotten Blade</button>
+  </div>
+
+  <script>
+    const v = document.getElementById('reel');
+    function playUnmuted() {
+      v.muted = false;
+      v.currentTime = 0;
+      v.play();
+    }
+    function seekTo(sec) {
+      v.muted = false;
+      v.currentTime = sec;
+      v.play();
+    }
+  </script>
+</body>
+</html>
